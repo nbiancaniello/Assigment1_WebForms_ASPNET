@@ -1,0 +1,94 @@
+﻿body {
+    background-color: #ecf4ff;
+}
+
+header {
+    font-family: Tahoma;
+    font-size: xx-large;
+    padding: 5px 10px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    top: 0;
+}
+
+footer {
+    font-family: Tahoma;
+    font-size: smaller;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 100%; 
+    position: absolute;
+    bottom: 0;
+}
+
+div.hyperlinks {
+    font-family: Tahoma;
+    font-size: medium;
+    background-color: #ecf4ff;
+    border: 1px solid blue;
+}
+
+.lblBoldUpperXXS {
+    font-weight: bold;
+    font-size: xx-small;
+    text-transform: uppercase;
+    font-family: Tahoma;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.lblError {
+    font-size: 11px;
+    font-family: Tahoma;
+    color: Red;
+}
+
+
+.TextBox {
+    font-family: Tahoma;
+    font-size: 11px;
+    vertical-align: middle;
+    width: 150px;
+}
+
+.RequiredField {
+    font-family: Tahoma;
+    font-size: 11px;
+    vertical-align: middle;
+    vertical-align: middle;
+    background-color: #B8E0FE;
+}
+
+.ButtonBlue11px {
+    border-right: lightsteelblue thin outset;
+    border-top: lightsteelblue thin outset;
+    font-weight: bold;
+    font-size: 11px;
+    border-left: lightsteelblue thin outset;
+    color: white;
+    border-bottom: lightsteelblue thin outset;
+    font-family: Tahoma;
+    background-color: blue;
+    width: 80px;
+}
+
+
+.ButtonBlue11pxDisable {
+    border-right: lightsteelblue thin outset;
+    border-top: lightsteelblue thin outset;
+    font-weight: bold;
+    font-size: 11px;
+    border-left: lightsteelblue thin outset;
+    color: Black;
+    border-bottom: lightsteelblue thin outset;
+    font-family: Tahoma;
+    background-color: Gray;
+    width: 80px;
+}
+
+td {
+    width: 155px;
+    height: 12px;
+}

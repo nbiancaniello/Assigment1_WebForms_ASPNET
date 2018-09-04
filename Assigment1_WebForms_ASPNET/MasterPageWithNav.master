@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MasterPageWithNav.master.cs" Inherits="Assigment1_WebForms_ASPNET.MasterPageWithNav" %>
+<asp:Content ID="HeaderNavContent" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="NavContent" ContentPlaceHolderID="MasterContent" runat="server">
+    <div id="mainNav" class="hyperlinks" runat="server">
+        <a href="SignIn.aspx">Sign In</a>
+        <a href="SignUp.aspx">Sign Up</a>
+    </div>
+    <div id="RecruiterNav" class="hyperlinks" runat="server" hidden>
+        <a href="Profile.aspx">Profile</a>
+        <a href="Jobs.aspx">Jobs</a>
+    </div>
+    <div id="SeekerNav" class="hyperlinks" runat="server" hidden>
+        <a href="Profile.aspx">Profile</a>
+        <a href="JobsApplied.aspx">Jobs Applied</a>
+        <a href="Resume.aspx">Resume</a>
+    </div>
+    <asp:ContentPlaceHolder ID="NavContentDisplay" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Assigment1_WebForms_ASPNET.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Styles.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>Job Portal</header>
+            <asp:ContentPlaceHolder ID="MasterContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <footer>Assignment done by Nicolas Biancaniello - Humber College - September 2018 </footer>
+        </div>
+    </form>
+</body>
+</html>
