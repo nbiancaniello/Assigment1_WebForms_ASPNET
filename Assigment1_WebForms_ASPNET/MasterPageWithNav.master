@@ -6,15 +6,6 @@
         <a href="SignIn.aspx">Sign In</a>
         <a href="SignUp.aspx">Sign Up</a>
     </div>
-    <div id="RecruiterNav" class="hyperlinks" runat="server" hidden>
-        <a href="Profile.aspx">Profile</a>
-        <a href="Jobs.aspx">Jobs</a>
-    </div>
-    <div id="SeekerNav" class="hyperlinks" runat="server" hidden>
-        <a href="Profile.aspx">Profile</a>
-        <a href="JobsApplied.aspx">Jobs Applied</a>
-        <a href="Resume.aspx">Resume</a>
-    </div>
     <asp:ContentPlaceHolder ID="NavContentDisplay" runat="server">
     </asp:ContentPlaceHolder>
 </asp:Content>

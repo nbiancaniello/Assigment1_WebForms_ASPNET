@@ -7,7 +7,7 @@ header {
     font-size: xx-large;
     padding: 5px 10px;
     height: 100px;
-    background-color: blue;
+    background-color: steelblue;
     color: white;
     top: 0;
 }
@@ -15,10 +15,10 @@ header {
 footer {
     font-family: Tahoma;
     font-size: smaller;
-    background-color: blue;
+    background-color: steelblue;
     color: white;
     height: 50px;
-    width: 100%; 
+    width: 100%;
     position: absolute;
     bottom: 0;
 }
@@ -40,9 +40,10 @@ div.hyperlinks {
 }
 
 .lblError {
-    font-size: 11px;
+    color: darkred;
+    font: bolder;
     font-family: Tahoma;
-    color: Red;
+    font-size: medium;
 }
 
 

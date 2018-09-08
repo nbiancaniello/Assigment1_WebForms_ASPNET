@@ -10,34 +10,7 @@
 namespace Assigment1_WebForms_ASPNET {
     
     
-    public partial class SignUp {
-        
-        /// <summary>
-        /// lblIam control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblIam;
-        
-        /// <summary>
-        /// rbRecruiter control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rbRecruiter;
-        
-        /// <summary>
-        /// rbSeeker control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rbSeeker;
+    public partial class CompanyProfile {
         
         /// <summary>
         /// lblFirstName control.
@@ -58,15 +31,6 @@ namespace Assigment1_WebForms_ASPNET {
         protected global::System.Web.UI.WebControls.TextBox txtFirstName;
         
         /// <summary>
-        /// reqFirstName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqFirstName;
-        
-        /// <summary>
         /// lblLastName control.
         /// </summary>
         /// <remarks>
@@ -83,15 +47,6 @@ namespace Assigment1_WebForms_ASPNET {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtLastName;
-        
-        /// <summary>
-        /// reqLastName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqLastName;
         
         /// <summary>
         /// lblPhone control.
@@ -112,24 +67,6 @@ namespace Assigment1_WebForms_ASPNET {
         protected global::System.Web.UI.WebControls.TextBox txtPhone;
         
         /// <summary>
-        /// reqPhone control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqPhone;
-        
-        /// <summary>
-        /// regPhone control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator regPhone;
-        
-        /// <summary>
         /// lblEmail control.
         /// </summary>
         /// <remarks>
@@ -146,24 +83,6 @@ namespace Assigment1_WebForms_ASPNET {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
-        
-        /// <summary>
-        /// reqEmail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqEmail;
-        
-        /// <summary>
-        /// regEmail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator regEmail;
         
         /// <summary>
         /// lblPassword control.
@@ -184,15 +103,6 @@ namespace Assigment1_WebForms_ASPNET {
         protected global::System.Web.UI.WebControls.TextBox txtPassword;
         
         /// <summary>
-        /// reqPassword control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqPassword;
-        
-        /// <summary>
         /// lblRePassword control.
         /// </summary>
         /// <remarks>
@@ -211,24 +121,6 @@ namespace Assigment1_WebForms_ASPNET {
         protected global::System.Web.UI.WebControls.TextBox txtRePassword;
         
         /// <summary>
-        /// reqRePassword control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqRePassword;
-        
-        /// <summary>
-        /// cmpPasswords control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator cmpPasswords;
-        
-        /// <summary>
         /// btnSignUp control.
         /// </summary>
         /// <remarks>
@@ -236,14 +128,5 @@ namespace Assigment1_WebForms_ASPNET {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSignUp;
-        
-        /// <summary>
-        /// btnCancel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCancel;
     }
 }

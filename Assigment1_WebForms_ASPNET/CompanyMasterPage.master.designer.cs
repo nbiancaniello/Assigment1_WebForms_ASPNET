@@ -10,24 +10,24 @@
 namespace Assigment1_WebForms_ASPNET {
     
     
-    public partial class MasterPageWithNav {
+    public partial class CompanyMasterPage {
         
         /// <summary>
-        /// mainNav control.
+        /// RecruiterNav control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl mainNav;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl RecruiterNav;
         
         /// <summary>
-        /// NavContentDisplay control.
+        /// CompanyNavContent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder NavContentDisplay;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder CompanyNavContent;
     }
 }

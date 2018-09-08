@@ -7,10 +7,12 @@
         <tr>
             <td><asp:Label ID="lblUser" runat="server" CssClass="lblBoldUpperXXS" Text="User: "></asp:Label></td>
             <td><asp:TextBox ID="txtUser" runat="server" CssClass="TextBox"></asp:TextBox></td>
+            <td><asp:RequiredFieldValidator runat="server" ID="reqUser" ControlToValidate="txtUser" ErrorMessage="User is Required" CssClass="lblError"/></td>
         </tr>
         <tr>
             <td><asp:Label ID="lblPassword" runat="server" CssClass="lblBoldUpperXXS" Text="Password: "></asp:Label></td>
-            <td><asp:TextBox ID="txtPassword" runat="server" CssClass="TextBox"></asp:TextBox></td>
+            <td><asp:TextBox ID="txtPassword" runat="server" CssClass="TextBox" TextMode="Password"></asp:TextBox></td>
+            <td><asp:RequiredFieldValidator runat="server" ID="reqPassword" ControlToValidate="txtPassword" ErrorMessage="Password is Required" CssClass="lblError"/></td>
         </tr>
         <tr>
             <td></td>

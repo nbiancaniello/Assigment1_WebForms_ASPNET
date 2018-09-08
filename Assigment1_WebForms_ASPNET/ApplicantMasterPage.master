@@ -1,0 +1,12 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="ApplicantMasterPage.master.cs" Inherits="Assigment1_WebForms_ASPNET.ApplicantMasterPage" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="NavContent" ContentPlaceHolderID="MasterContent" runat="server">
+    <div id="ApplicantNav" class="hyperlinks" runat="server">
+        <a href="ApplicantProfile.aspx">Profile</a>
+        <a href="JobsApplied.aspx">Jobs Applied</a>
+        <a href="Resume.aspx">Resume</a>
+    </div>
+    <asp:ContentPlaceHolder ID="ApplicantNavContent" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
