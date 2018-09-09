@@ -67,15 +67,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ApplicantApplyJobs.aspx" />
     <Content Include="ApplicantProfile.aspx" />
+    <Content Include="ApplicantResume.aspx" />
     <Content Include="CompanyProfile.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="JobsApplied.aspx" />
     <Content Include="SignIn.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="Styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicantApplyJobs.aspx.cs">
+      <DependentUpon>ApplicantApplyJobs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplicantApplyJobs.aspx.designer.cs">
+      <DependentUpon>ApplicantApplyJobs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ApplicantMasterPage.master.cs">
       <DependentUpon>ApplicantMasterPage.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -89,6 +99,13 @@
     </Compile>
     <Compile Include="ApplicantProfile.aspx.designer.cs">
       <DependentUpon>ApplicantProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicantResume.aspx.cs">
+      <DependentUpon>ApplicantResume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplicantResume.aspx.designer.cs">
+      <DependentUpon>ApplicantResume.aspx</DependentUpon>
     </Compile>
     <Compile Include="CompanyMasterPage.master.cs">
       <DependentUpon>CompanyMasterPage.master</DependentUpon>
@@ -106,6 +123,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="JobsApplied.aspx.cs">
+      <DependentUpon>JobsApplied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobsApplied.aspx.designer.cs">
+      <DependentUpon>JobsApplied.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>

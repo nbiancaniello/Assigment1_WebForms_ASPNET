@@ -16,8 +16,9 @@ namespace Assigment1_WebForms_ASPNET
 
         protected void btnSignIn_Click(object sender, EventArgs e)
         {
-            if (checkUserData())
+            if (saveUserLogin())
             {
+
                 switch (Session["Role"].ToString())
                 {
                     case "Applicants":
@@ -32,7 +33,7 @@ namespace Assigment1_WebForms_ASPNET
             }
         }
 
-        protected bool checkUserData()
+        protected bool saveUserLogin()
         {
             ClientScriptManager cs = Page.ClientScript;
             string username = txtUser.Text;
@@ -73,6 +74,7 @@ namespace Assigment1_WebForms_ASPNET
             }
 
             Session.Add("Id", Id.ToString());
+            Session.Add("Username", username);
             Session.Add("Role", role);
 
             return true;

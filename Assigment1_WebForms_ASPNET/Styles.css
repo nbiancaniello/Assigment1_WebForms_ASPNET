@@ -7,8 +7,11 @@ header {
     font-size: xx-large;
     padding: 5px 10px;
     height: 100px;
+    width: 100%;
     background-color: steelblue;
     color: white;
+    
+    margin-bottom: auto;
     top: 0;
 }
 
@@ -19,7 +22,7 @@ footer {
     color: white;
     height: 50px;
     width: 100%;
-    position: absolute;
+    margin-top: auto;
     bottom: 0;
 }
 
@@ -27,7 +30,7 @@ div.hyperlinks {
     font-family: Tahoma;
     font-size: medium;
     background-color: #ecf4ff;
-    border: 1px solid blue;
+    border: 1px solid steelblue;
 }
 
 .lblBoldUpperXXS {
@@ -43,7 +46,7 @@ div.hyperlinks {
     color: darkred;
     font: bolder;
     font-family: Tahoma;
-    font-size: medium;
+    font-size: smaller;
 }
 
 

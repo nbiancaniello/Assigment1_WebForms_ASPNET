@@ -5,7 +5,8 @@
     <div id="ApplicantNav" class="hyperlinks" runat="server">
         <a href="ApplicantProfile.aspx">Profile</a>
         <a href="JobsApplied.aspx">Jobs Applied</a>
-        <a href="Resume.aspx">Resume</a>
+        <a href="ApplicantResume.aspx">Resume</a>
+        <a href="ApplicantApplyJobs.aspx">Apply Jobs</a>
     </div>
     <asp:ContentPlaceHolder ID="ApplicantNavContent" runat="server">
     </asp:ContentPlaceHolder>

@@ -98,9 +98,19 @@ namespace Assigment1_WebForms_ASPNET
                 conn.Open();
                 cmd.ExecuteNonQuery();
                 conn.Close();
+
+                cmd.Parameters.Clear();
+                cmd.CommandText = @"Insert Into Applicant_Profiles (Id, Login) Values (?,?)";
+                cmd.Parameters.AddWithValue("@Id", Guid.NewGuid().ToString());
+                cmd.Parameters.AddWithValue("@Login", Id.ToString());
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                conn.Close();
             }
 
             Session.Add("Id", Id.ToString());
+            Session.Add("Username", username);
             Session.Add("Role", "Applicant");
 
             return true;
