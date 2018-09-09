@@ -68,14 +68,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApplicantApplyJobs.aspx" />
+    <Content Include="ApplicantPreferences.aspx" />
     <Content Include="ApplicantProfile.aspx" />
     <Content Include="ApplicantResume.aspx" />
     <Content Include="CompanyProfile.aspx" />
     <Content Include="Global.asax" />
     <Content Include="JobsApplied.aspx" />
+    <Content Include="ResetPassword.aspx" />
+    <Content Include="UserControls\changePassword.ascx" />
+    <Content Include="UserControls\resetPassword.ascx" />
     <Content Include="SignIn.aspx" />
+    <Content Include="SignOut.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="Styles.css" />
+    <Content Include="UserControls\login.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -92,6 +98,13 @@
     </Compile>
     <Compile Include="ApplicantMasterPage.master.designer.cs">
       <DependentUpon>ApplicantMasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicantPreferences.aspx.cs">
+      <DependentUpon>ApplicantPreferences.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplicantPreferences.aspx.designer.cs">
+      <DependentUpon>ApplicantPreferences.aspx</DependentUpon>
     </Compile>
     <Compile Include="ApplicantProfile.aspx.cs">
       <DependentUpon>ApplicantProfile.aspx</DependentUpon>
@@ -146,6 +159,27 @@
       <DependentUpon>MasterPageWithNav.master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResetPassword.aspx.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResetPassword.aspx.designer.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\changePassword.ascx.cs">
+      <DependentUpon>changePassword.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\changePassword.ascx.designer.cs">
+      <DependentUpon>changePassword.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\resetPassword.ascx.cs">
+      <DependentUpon>resetPassword.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\resetPassword.ascx.designer.cs">
+      <DependentUpon>resetPassword.ascx</DependentUpon>
+    </Compile>
     <Compile Include="SignIn.aspx.cs">
       <DependentUpon>SignIn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -153,12 +187,26 @@
     <Compile Include="SignIn.aspx.designer.cs">
       <DependentUpon>SignIn.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SignOut.aspx.cs">
+      <DependentUpon>SignOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignOut.aspx.designer.cs">
+      <DependentUpon>SignOut.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.aspx.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\login.ascx.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\login.ascx.designer.cs">
+      <DependentUpon>login.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -39,11 +39,6 @@ namespace Assigment1_WebForms_ASPNET
             }
         }
 
-        protected void btnCancel_Click(object sender, EventArgs e)
-        {
-
-        }
-
         protected Guid getRoleId(string role)
         {
             Guid Id = Guid.Empty;

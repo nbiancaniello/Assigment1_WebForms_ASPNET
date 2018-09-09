@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MasterContent" runat="server">
-    <div id="RecruiterNav" class="hyperlinks" runat="server">
+    <div id="RecruiterNav" runat="server">
         <a href="Profile.aspx">Profile</a>
         <a href="Jobs.aspx">Jobs</a>
     </div>

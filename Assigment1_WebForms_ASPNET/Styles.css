@@ -10,7 +10,6 @@ header {
     width: 100%;
     background-color: steelblue;
     color: white;
-    
     margin-bottom: auto;
     top: 0;
 }
@@ -20,17 +19,34 @@ footer {
     font-size: smaller;
     background-color: steelblue;
     color: white;
-    height: 50px;
+    height: 20px;
     width: 100%;
     margin-top: auto;
+    position: relative;
     bottom: 0;
 }
 
-div.hyperlinks {
+div {
+    clear: both;
+}
+
+a {
     font-family: Tahoma;
-    font-size: medium;
-    background-color: #ecf4ff;
-    border: 1px solid steelblue;
+    font-size: smaller;
+    color: white;
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:link, a:visited {
+    background-color: blue;
+}
+
+a:hover, a:active {
+    background-color: lightsteelblue;
+    cursor: pointer;
 }
 
 .lblBoldUpperXXS {
@@ -66,31 +82,38 @@ div.hyperlinks {
 }
 
 .ButtonBlue11px {
-    border-right: lightsteelblue thin outset;
-    border-top: lightsteelblue thin outset;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-weight: bold;
     font-size: 11px;
-    border-left: lightsteelblue thin outset;
-    color: white;
-    border-bottom: lightsteelblue thin outset;
+    margin: 4px 2px;
+    cursor: pointer;
     font-family: Tahoma;
-    background-color: blue;
     width: 80px;
 }
 
 
 .ButtonBlue11pxDisable {
-    border-right: lightsteelblue thin outset;
-    border-top: lightsteelblue thin outset;
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-weight: bold;
     font-size: 11px;
-    border-left: lightsteelblue thin outset;
-    color: Black;
-    border-bottom: lightsteelblue thin outset;
+    margin: 4px 2px;
+    cursor: pointer;
     font-family: Tahoma;
-    background-color: Gray;
     width: 80px;
 }
+
 
 td {
     width: 155px;

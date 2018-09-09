@@ -2,7 +2,7 @@
 <asp:Content ID="HeaderNavContent" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="NavContent" ContentPlaceHolderID="MasterContent" runat="server">
-    <div id="mainNav" class="hyperlinks" runat="server">
+    <div id="mainNav" runat="server">
         <a href="SignIn.aspx">Sign In</a>
         <a href="SignUp.aspx">Sign Up</a>
     </div>

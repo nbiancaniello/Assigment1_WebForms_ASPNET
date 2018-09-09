@@ -54,5 +54,10 @@ namespace Assigment1_WebForms_ASPNET
                 conn.Close();
             }
         }
+
+        protected void GridView_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

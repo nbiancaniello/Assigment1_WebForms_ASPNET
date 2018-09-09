@@ -10,15 +10,15 @@
 namespace Assigment1_WebForms_ASPNET {
     
     
-    public partial class SignIn {
+    public partial class ResetPassword {
         
         /// <summary>
-        /// Login control.
+        /// reset control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Assigment1_WebForms_ASPNET.UserControls.login Login;
+        protected global::Assigment1_WebForms_ASPNET.resetPassword reset;
     }
 }

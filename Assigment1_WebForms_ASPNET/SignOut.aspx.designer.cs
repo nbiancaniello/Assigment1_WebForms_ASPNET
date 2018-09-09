@@ -10,15 +10,15 @@
 namespace Assigment1_WebForms_ASPNET {
     
     
-    public partial class SignIn {
+    public partial class SignOut {
         
         /// <summary>
-        /// Login control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Assigment1_WebForms_ASPNET.UserControls.login Login;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
     }
 }

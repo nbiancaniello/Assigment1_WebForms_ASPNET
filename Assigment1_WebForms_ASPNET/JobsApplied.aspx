@@ -16,11 +16,11 @@
         </asp:SqlDataSource>
       
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" DataSourceID="ApplicantJobApplications" 
-            AutoGenerateColumns="False" style="margin-right: 22px" Width="1244px ">
+            AutoGenerateColumns="False" style="margin-right: 22px" Width="1244px">
             <Columns>
-                <asp:BoundField DataField="Company Name" HeaderText="Company Name" SortExpression="Company Name" />
-                <asp:BoundField DataField="Job Name" HeaderText="Job Name" SortExpression="Job Name" />
-                <asp:BoundField DataField="Job Description" HeaderText="Job Description" SortExpression="Job Description" />
+                <asp:BoundField DataField="Company Name" HeaderText="Company Name" SortExpression="Company Name" ReadOnly="True" />
+                <asp:BoundField DataField="Job Name" HeaderText="Job Name" SortExpression="Job Name" ReadOnly="True" />
+                <asp:BoundField DataField="Job Description" HeaderText="Job Description" SortExpression="Job Description" ReadOnly="True" />
                 <asp:BoundField DataField="Date Applied" HeaderText="Date Applied" ReadOnly="True" SortExpression="Date Applied" />
             </Columns>
         </asp:GridView>

@@ -2,11 +2,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="NavContent" ContentPlaceHolderID="MasterContent" runat="server">
-    <div id="ApplicantNav" class="hyperlinks" runat="server">
-        <a href="ApplicantProfile.aspx">Profile</a>
+    <div id="ApplicantNav" runat="server">
+        <a href="ApplicantProfile.aspx" style="border=">Profile</a>
         <a href="JobsApplied.aspx">Jobs Applied</a>
         <a href="ApplicantResume.aspx">Resume</a>
         <a href="ApplicantApplyJobs.aspx">Apply Jobs</a>
+        <a href="ApplicantPreferences.aspx">Preferences</a>
+        <a href="SignOut.aspx">Sign Out</a>
     </div>
     <asp:ContentPlaceHolder ID="ApplicantNavContent" runat="server">
     </asp:ContentPlaceHolder>
