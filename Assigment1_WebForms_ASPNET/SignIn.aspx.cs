@@ -40,12 +40,14 @@ namespace Assigment1_WebForms_ASPNET
             Guid Id = Guid.Empty;
             string pass = null;
             string role = null;
+            string applicantId = null;
 
             using (OleDbConnection conn = new OleDbConnection(ConfigurationManager.ConnectionStrings["Job_Portal"].ConnectionString))
-            using (OleDbCommand cmd = new OleDbCommand(@"Select sl.Id, sl.Password, sr.Role
+            using (OleDbCommand cmd = new OleDbCommand(@"Select sl.Id, sl.Password, sr.Role, ap.Id
                                                         From dbo.Security_Logins sl join dbo.Security_Logins_Roles slr
                                                         on sl.id = slr.login
                                                         join dbo.Security_roles sr on slr.Role = sr.Id
+                                                        join dbo.Applicant_Profiles ap on sl.Id = ap.Login
                                                         Where sl.login = '" + username + "'"))
             {
                 conn.Open();
@@ -57,6 +59,7 @@ namespace Assigment1_WebForms_ASPNET
                     Id = reader.GetGuid(0);
                     pass = reader.GetString(1);
                     role = reader.GetString(2);
+                    applicantId = reader.GetGuid(3).ToString();
                 }
                 conn.Close();
             }
@@ -76,6 +79,7 @@ namespace Assigment1_WebForms_ASPNET
             Session.Add("Id", Id.ToString());
             Session.Add("Username", username);
             Session.Add("Role", role);
+            Session.Add("ApplicantId", applicantId);
 
             return true;
         }

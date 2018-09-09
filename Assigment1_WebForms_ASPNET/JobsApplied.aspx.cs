@@ -11,9 +11,13 @@ namespace Assigment1_WebForms_ASPNET
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(Session.Count == 0)
+            if (!IsPostBack)
             {
-                Response.Redirect("~/SignIn.aspx");
+                if (Session.Count == 0)
+                {
+                    Response.Redirect("~/SignIn.aspx");
+                }
+                hApplicantId.Value = Session["ApplicantId"].ToString();
             }
         }
     }

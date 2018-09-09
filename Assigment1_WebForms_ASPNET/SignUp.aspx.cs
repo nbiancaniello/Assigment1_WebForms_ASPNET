@@ -69,6 +69,7 @@ namespace Assigment1_WebForms_ASPNET
         protected bool createLogin(Guid RoleId)
         {
             Guid Id = Guid.NewGuid();
+            Guid ApplicantId = Guid.NewGuid();
             string username = txtFirstName.Text + txtLastName.Text;
 
             using (OleDbConnection conn = new OleDbConnection(ConfigurationManager.ConnectionStrings["Job_Portal"].ConnectionString))
@@ -101,7 +102,7 @@ namespace Assigment1_WebForms_ASPNET
 
                 cmd.Parameters.Clear();
                 cmd.CommandText = @"Insert Into Applicant_Profiles (Id, Login) Values (?,?)";
-                cmd.Parameters.AddWithValue("@Id", Guid.NewGuid().ToString());
+                cmd.Parameters.AddWithValue("@Id", ApplicantId.ToString());
                 cmd.Parameters.AddWithValue("@Login", Id.ToString());
 
                 conn.Open();
@@ -112,6 +113,7 @@ namespace Assigment1_WebForms_ASPNET
             Session.Add("Id", Id.ToString());
             Session.Add("Username", username);
             Session.Add("Role", "Applicant");
+            Session.Add("ApplicantId", ApplicantId);
 
             return true;
         }
